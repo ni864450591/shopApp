@@ -1,0 +1,15 @@
+@mixin ellipse{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+@import '../../style/viriables.scss';
+// scss的混入方法，那边用@include name 调用
+@mixin wrapper{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  background-color: $wrapper-bgcolor;
+}

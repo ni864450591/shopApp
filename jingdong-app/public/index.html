@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>小尼</title>
+    <script>
+      // 这里做了适配
+      // clientWidth = width + 2*padding,表示一进入网页就知道你的设备宽度
+      var width = document.documentElement.clientWidth || document.body.clientWidth;
+      //  因为设计稿上是375，而我用的html：font-size:100px
+      var ratio = width / 375;
+      var fontSize = 100 * ratio ;
+      //  动态修改html的font-size
+      document.getElementsByTagName('html')[0].style['font-size'] = fontSize +'px';
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+/* 这里是远程的字体库,我们就不用在将文件下载下来放在本地了 */
+@font-face {
+  font-family: 'iconfont';  /* project id 2510042 */
+  src: url('//at.alicdn.com/t/font_2510042_892lmoh1p.eot');
+  src: url('//at.alicdn.com/t/font_2510042_892lmoh1p.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2510042_892lmoh1p.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2510042_892lmoh1p.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2510042_892lmoh1p.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2510042_892lmoh1p.svg#iconfont') format('svg');
+}
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: .16rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
